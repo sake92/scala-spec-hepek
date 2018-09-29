@@ -25,6 +25,7 @@ bin/
 
 # ignore everything in all target/ folders
 target/
+!target/web/public/main/site/pdfs
 
 .idea/
 root.iml
