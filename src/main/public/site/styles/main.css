@@ -1,0 +1,34 @@
+body {
+  margin-bottom: 55px;
+  padding-top: 77px !important;
+}
+
+.navbar-nav > li > a {
+  margin: 0;
+}
+
+/* Print/PDF settings */
+/* Use `display: none !important;` to hide stuff when printing */
+@media print {
+  /* use smaller font */
+  body {
+    font-size: 16px;
+  }
+  /* Bootstrap, hide link in parens */
+  /* https://drupal.stackexchange.com/questions/59900/how-to-get-rid-of-added-urls-when-printing-a-bootstrap-themed-page */
+  a[href]:after {
+    content: none;
+  }
+  /* KaTeX math */
+  /* hide HTML, show MathML when printing */
+  .katex-html {
+    display: none !important;
+  }
+  .katex-mathml {
+    position: relative !important;
+  }
+  /* Prismjs, hide copy button etc. */
+  .code-toolbar .toolbar {
+    display: none !important;
+  }
+}
