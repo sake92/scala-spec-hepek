@@ -7,6 +7,13 @@ body {
   margin: 0;
 }
 
+/* Display "Example" before code snippet */
+blockquote:before {
+  content: "Example";
+  font-size: 14px;
+  font-weight: bold;
+}
+
 /* Print/PDF settings */
 /* Use `display: none !important;` to hide stuff when printing */
 @media print {
