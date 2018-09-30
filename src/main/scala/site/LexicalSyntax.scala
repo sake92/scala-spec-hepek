@@ -14,7 +14,6 @@ object LexicalSyntax extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(lexicalSyntaxSection, identifiersSection)
 
-  /* CONTENT */
   val lexicalSyntaxSection = Section(
     "Lexical Syntax",
     frag(
