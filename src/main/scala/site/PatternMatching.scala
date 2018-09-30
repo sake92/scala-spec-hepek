@@ -14,8 +14,7 @@ object PatternMatching extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(patternMatchingSection)
 
-  /* CONTENT */
-  val patternMatchingSection = Section(
+  def patternMatchingSection = Section(
     "Pattern Matching",
     frag(
       s"""

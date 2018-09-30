@@ -14,8 +14,7 @@ object Changelog extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(changelogSection)
 
-  /* CONTENT */
-  val changelogSection = Section(
+  def changelogSection = Section(
     "Changelog",
     frag(
       s"""

@@ -14,8 +14,7 @@ object Expressions extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(expressionsSection)
 
-  /* CONTENT */
-  val expressionsSection = Section(
+  def expressionsSection = Section(
     "Expressions",
     frag(
       s"""

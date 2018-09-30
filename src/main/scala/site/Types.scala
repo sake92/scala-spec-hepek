@@ -14,8 +14,7 @@ object Types extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(functionTypesSection)
 
-  /* CONTENT */
-  val functionTypesSection = Section(
+  def functionTypesSection = Section(
     "Function Types",
     frag(
       s"""

@@ -14,8 +14,7 @@ object References extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(referencesSection)
 
-  /* CONTENT */
-  val referencesSection = Section(
+  def referencesSection = Section(
     "References",
     frag(
       s"""

@@ -14,8 +14,7 @@ object XMLExpressionsPatterns extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(xmlExpressionsPatternsSection)
 
-  /* CONTENT */
-  val xmlExpressionsPatternsSection = Section(
+  def xmlExpressionsPatternsSection = Section(
     "XML Expressions and Patterns",
     frag(
       s"""

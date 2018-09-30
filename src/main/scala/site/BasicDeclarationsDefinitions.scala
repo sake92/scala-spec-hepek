@@ -14,8 +14,7 @@ object BasicDeclarationsDefinitions extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(basicDeclarationsDefinitionsSection)
 
-  /* CONTENT */
-  val basicDeclarationsDefinitionsSection = Section(
+  def basicDeclarationsDefinitionsSection = Section(
     "Basic Declarations and Definitions",
     frag(
       s"""

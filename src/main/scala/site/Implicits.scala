@@ -14,8 +14,7 @@ object Implicits extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(implicitsSection)
 
-  /* CONTENT */
-  val implicitsSection = Section(
+  def implicitsSection = Section(
     "Implicits",
     frag(
       s"""

@@ -14,8 +14,7 @@ object ClassesObjects extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(classesObjectsSection)
 
-  /* CONTENT */
-  val classesObjectsSection = Section(
+  def classesObjectsSection = Section(
     "Classes and Objects",
     frag(
       s"""

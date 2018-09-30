@@ -14,8 +14,7 @@ object SyntaxSummary extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(syntaxSummarySection)
 
-  /* CONTENT */
-  val syntaxSummarySection = Section(
+  def syntaxSummarySection = Section(
     "Syntax Summary",
     frag(
       s"""

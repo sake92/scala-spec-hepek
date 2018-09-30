@@ -14,8 +14,7 @@ object IdentifiersNamesScopes extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(identifiersNamesScopesSection)
 
-  /* CONTENT */
-  val identifiersNamesScopesSection = Section(
+  def identifiersNamesScopesSection = Section(
     "Identifiers, Names and Scopes",
     frag(
       s"""

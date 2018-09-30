@@ -14,8 +14,7 @@ object Annotations extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(annotationsSection)
 
-  /* CONTENT */
-  val annotationsSection = Section(
+  def annotationsSection = Section(
     "Annotations",
     frag(
       s"""

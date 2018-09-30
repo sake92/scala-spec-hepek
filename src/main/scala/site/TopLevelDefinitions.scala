@@ -14,8 +14,7 @@ object TopLevelDefinitions extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(topLevelDefinitionsSection)
 
-  /* CONTENT */
-  val topLevelDefinitionsSection = Section(
+  def topLevelDefinitionsSection = Section(
     "Top-Level Definitions",
     frag(
       s"""

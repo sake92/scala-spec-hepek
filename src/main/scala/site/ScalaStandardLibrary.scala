@@ -14,8 +14,7 @@ object ScalaStandardLibrary extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(scalaStandardLibrarySection)
 
-  /* CONTENT */
-  val scalaStandardLibrarySection = Section(
+  def scalaStandardLibrarySection = Section(
     "The Scala Standard Library",
     frag(
       s"""
