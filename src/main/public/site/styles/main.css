@@ -3,8 +3,23 @@ body {
   padding-top: 77px !important;
 }
 
+a {
+  color: #2072ff;
+}
+
+.pages-toc ul {
+  list-style: none;
+}
+
+blockquote {
+  font-size: 16px;
+}
+
 .navbar-nav > li > a {
   margin: 0;
+}
+.navbar-brand > span > img {
+  margin-right: 7px;
 }
 
 /* Display "Example" before code snippet */

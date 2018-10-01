@@ -14,6 +14,14 @@ object Types extends templates.SpecBlogPage {
     super.blogSettings
       .withSections(functionTypesSection)
 
+  def valueTypesSection = Section(
+    "Value Types",
+    frag(
+      s"""
+      """
+    )
+  )
+
   def functionTypesSection = Section(
     "Function Types",
     frag(

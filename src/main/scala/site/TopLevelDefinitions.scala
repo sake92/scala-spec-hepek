@@ -18,7 +18,16 @@ object TopLevelDefinitions extends templates.SpecBlogPage {
     "Top-Level Definitions",
     frag(
       s"""
-        TODO
+        Top-Level Definitions
+      """.md
+    )
+  )
+
+  def packagingsSection = Section(
+    "Packagings",
+    frag(
+      s"""
+        Packagings
       """.md
     )
   )

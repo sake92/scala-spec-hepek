@@ -23,4 +23,13 @@ object BasicDeclarationsDefinitions extends templates.SpecBlogPage {
     )
   )
 
+  def importClauses = Section(
+    "Import Clauses",
+    frag(
+      s"""
+        Import Clauses
+      """.md
+    )
+  )
+
 }

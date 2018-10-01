@@ -18,7 +18,16 @@ object ClassesObjects extends templates.SpecBlogPage {
     "Classes and Objects",
     frag(
       s"""
-        TODO
+        Classes and Objects
+      """.md
+    )
+  )
+
+  def classMembersSection = Section(
+    "Class Members",
+    frag(
+      s"""
+        Class Members
       """.md
     )
   )
