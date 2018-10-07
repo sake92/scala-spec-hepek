@@ -644,7 +644,7 @@ object LexicalSyntax extends templates.SpecBlogPage {
                 td(code(unicode)),
                 td(name),
                 td(code(char))
-              ),
+              )
           }: _*
         )
       ),
