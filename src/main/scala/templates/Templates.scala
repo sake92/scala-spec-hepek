@@ -5,7 +5,7 @@ import ba.sake.hepek.bootstrap3.statik.BootstrapStaticPage
 import ba.sake.hepek.implicits._
 import ba.sake.hepek.katex.KatexDependencies
 import ba.sake.hepek.prismjs._
-import ba.sake.hepek.theme.bootstrap3.HepekBootstrap3BlogPage
+import ba.sake.hepek.theme.bootstrap3.{HepekBootstrap3BlogPage, TocType}
 import utils.Imports.resources._
 
 trait SpecBlogPage extends SpecStaticPage with HepekBootstrap3BlogPage {
@@ -28,6 +28,10 @@ trait SpecBlogPage extends SpecStaticPage with HepekBootstrap3BlogPage {
       site.Changelog
     )
   override def pageHeader = None
+
+  override def tocSettings = super.tocSettings.copy(
+    tocType = Some(TocType.Scrollspy(65))
+  )
 }
 
 trait SpecStaticPage
