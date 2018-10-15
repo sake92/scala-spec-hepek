@@ -15,11 +15,19 @@ blockquote {
   font-size: 16px;
 }
 
+/* logo image */
 .navbar-nav > li > a {
   margin: 0;
 }
 .navbar-brand > span > img {
   margin-right: 7px;
+}
+
+/* scrollspy font */
+nav#tocScrollspy  .nav>li>a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: .9em;
 }
 
 /* Display "Example" before code snippet */
