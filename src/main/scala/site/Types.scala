@@ -14,7 +14,16 @@ object Types extends templates.SpecBlogPage {
 
   override def blogSettings =
     super.blogSettings
-      .withSections(typesSection)
+      .withSections(
+        typesSection,
+        pathsSection,
+        valueTypesSection,
+        nonValueTypesSection,
+        baseTypesMemberDefinitionsSection,
+        relationsBetweenTypesSection,
+        volatileTypesSection,
+        typeErasureSection
+      )
 
   def typesSection = Section(
     "Types",
@@ -81,15 +90,6 @@ object Types extends templates.SpecBlogPage {
             define a class (of the same name as the object or package, but
             inaccessible to user programs).
       """.md
-    ),
-    List(
-      pathsSection,
-      valueTypesSection,
-      nonValueTypesSection,
-      baseTypesMemberDefinitionsSection,
-      relationsBetweenTypesSection,
-      volatileTypesSection,
-      typeErasureSection
     )
   )
 
